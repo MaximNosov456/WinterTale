@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WinterTale</title>
+    <link rel="icon" href="images/snowflake.svg">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Festive&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__inner">
+                        <button class="hamburger">
+                            <span></span>
+                        </button>
+                        <nav class="header__nav">
+                            <ul class="header__nav-list">
+                                <li class="header__nav-item">
+                                    <a href="catalog.html" class="header__nav-link">Магазины</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="product.html" class="header__nav-link">Акции</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#" class="header__nav-link">Доставка и оплата</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <a class="logo" href="#">
+                            <img src="images/snowflake.svg" alt="">
+                            <div class="logo-text">WinterTale</div>
+                        </a>
+
+                        <address class="header__address">
+                            Москва, ул. Гоголя 32
+                        </address>
+
+                        <ul class="header__user-icons">
+                            <li class="header__user-ico">
+                                <a class="header__user-link" href="#">
+                                    <img class="header__user-img" src="images/favourite-ico.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="header__user-ico">
+                                <a class="header__user-link" href="#">
+                                    <img class="header__user-img" src="images/user-ico.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="header__user-ico header__user-cart">
+                                <a class="header__user-link" href="#">
+                                    <img class="header__user-img" src="images/cart-ico.svg" alt="">
+                                    <span class="cart-num">3</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="container">
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a class="menu__List-link" href="#">Лыжи</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__List-link" href="#">Коньки</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__List-link" href="#">Сноуборды</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__List-link" href="#">Одежда</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__List-link" href="#">Хоккей</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__List-link" href="#">Снегоходы</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__List-link" href="#">Санки</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__List-link" href="#">Аксессуары</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="menu__mobile">
+                <button class="menu__mobile-close">x</button>
+                <ul class="menu__mobile-list">
+                    <li class="menu__mobile-item">
+                        <a href="#">
+                            <img src="images/user-ico.svg" alt="">
+                            Войти
+                        </a>
+                    </li>
+                    <li class="menu__mobile-item">
+                        <a href="#">
+                            <img src="images/user-ico.svg" alt="">
+                            Регистрация
+                        </a>
+                    </li>
+                    <li class="menu__mobile-item">
+                        <a href="#">
+                            <img src="images/favourite-ico.svg" alt="">
+                            Избранное
+                        </a>
+                    </li>
+                    <li class="menu__mobile-item">
+                        <a href="#">
+                            <img src="images/cart-ico.svg" alt="">
+                            Корзина
+                        </a>
+                    </li>
+                    <li class="menu__mobile-item">
+                        <a href="#">
+                            <img src="images/shop-ico.svg" alt="">
+                            Магазины</a>
+                    </li>
+                    <li class="menu__mobile-item">
+
+                        <a href="#">
+                            <img src="images/sale-ico.svg" alt="">
+                            Акции
+                        </a>
+                    </li>
+
+                    <li class="menu__mobile-item">
+                        <a href="#">
+                            <img src="images/order-ico.svg" alt="">
+                            Доставка и оплата
+                        </a>
+                    </li>
+                    <li class="menu__mobile-item">
+                        <a href="#">Лыжи</a>
+                    </li>
+                    <li class="menu__mobile-item">
+                        <a href="#">Коньки</a>
+                    </li>
+                    <li class="menu__mobile-item">
+                        <a href="#">Сноуборды</a>
+                    </li>
+                    <li class="menu__mobile-item">
+                        <a href="#">Одежда</a>
+                    </li>
+                    <li class="menu__mobile-item">
+                        <a href="#">Хоккей</a>
+                    </li>
+                    <li class="menu__mobile-item">
+                        <a href="#">Снегоходы</a>
+                    </li>
+                    <li class="menu__mobile-item">
+                        <a href="#">Санки</a>
+                    </li>
+                    <li class="menu__mobile-item">
+                        <a href="#">Аксессуары</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <section class="promo page-section">
+            <div class="container">
+                <div class="promo__inner">
+                    <div class="swiper-banners">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img class="swiper-slide__img" src="images/banner-1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-slide__img" src="images/banner-2.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-banners-pagination"></div>
+
+                        <div class="swiper-banners-prev">
+                            <img src="images/arrow-left.svg" alt="">
+                        </div>
+                        <div class="swiper-banners-next">
+                            <img src="images/arrow-right.svg" alt="">
+                        </div>
+                    </div>
+
+                    <a class="promo__sale" href="#">
+                        <div class="promo__sale-text">акция</div>
+                        <div class="right">
+                            <div class="promo__sale-newprice">8 000 ₽</div>
+                            <div class="promo__sale-oldprice">5 990</div>
+                        </div>
+                        <img class="promo__sale-img" src="images/sale-img.jpeg" alt="">
+                        <h3 class="promo__sale-name">ШЛЕМ WARRIOR COVERT PX2 SR</h3>
+                        <div class="promo__sale-footer">
+                            <div class="promo__sale-date">
+                                Акция действует до
+                                <span>31.08.2020</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <div class="tabs-wrapper search page-section">
+            <div class="container">
+                <div class="tabs search__tabs">
+                    <button class="search__tab tab tab--active">Поиск по номеру</button>
+                    <button class="search__tab tab">Поиск по марке</button>
+                    <button class="search__tab tab">Поиск по названию товара</button>
+                </div>
+                <div class="tabs__content-wrapper">
+                    <div class="tab-content tab-content--active">
+                        <form action="#">
+                            <input class="search__input" type="text" placeholder="Введите номер ">
+                            <button class="search__button">искать</button>
+                        </form>
+                    </div>
+                    <div class="tab-content">
+                        <form action="#">
+                            <input class="search__input" type="text" placeholder="Введите марку ">
+                            <button class="search__button">искать</button>
+                        </form>
+                    </div>
+                    <div class="tab-content">
+                        <form action="#">
+                            <input class="search__input" type="text" placeholder="Введите название товара ">
+                            <button class="search__button">искать</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards page-section">
+            <div class="container">
+                <div class="cards__inner">
+                    <a class="card-item" href="#">
+                        <div class="card-item__wrapper">
+                            <div class="card-item__name">Лыжи</div>
+                            <p class="card-item__link">Подробнее</p>
+                        </div>
+                        <img src="images/categories-1.jpg" alt="">
+
+                    </a>
+                    <a class="card-item" href="#">
+                        <div class="card-item__wrapper">
+                            <div class="card-item__name">Сноуборды</div>
+                            <p class="card-item__link">Подробнее</p>
+                        </div>
+                        <img src="images/categories-2.jpg" alt="">
+                    </a>
+                    <a class="card-item" href="#">
+                        <div class="card-item__wrapper">
+                            <div class="card-item__name">Санки</div>
+                            <p class="card-item__link">Подробнее</p>
+                        </div>
+                        <img src="images/categories-3.jpg" alt="">
+                    </a>
+                    <a class="card-item" href="#">
+                        <div class="card-item__wrapper">
+                            <div class="card-item__name">Коньки</div>
+                            <p class="card-item__link">Подробнее</p>
+                        </div>
+                        <img src="images/categories-4.jpg" alt="">
+                    </a>
+                    <a class="card-item" href="#">
+                        <div class="card-item__wrapper">
+                            <div class="card-item__name">Хоккей</div>
+                            <p class="card-item__link">Подробнее</p>
+                        </div>
+                        <img src="images/categories-5.jpeg" alt="">
+                    </a>
+                    <a class="card-item" href="#">
+                        <div class="card-item__wrapper">
+                            <div class="card-item__name">Аксессуары</div>
+                            <p class="card-item__link">Подробнее</p>
+                        </div>
+                        <img src="images/categories-6.jpeg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <section class="products page-section">
+            <div class="container">
+                <h2 class="products__title">Популярные товары</h2>
+                <div class="tabs-wrapper">
+                    <div class="product__tabswrapper">
+                        <div class="tabs product__tabs">
+                            <button class="product__tab tab tab--active">Коньки</button>
+                            <button class="product__tab tab">Сноуборды</button>
+                            <button class="product__tab tab">Клюшки </button>
+                            <button class="product__tab tab">Шлемы</button>
+                            <button class="product__tab tab">Сумки</button>
+                        </div>
+                    </div>
+
+
+                    <div class="products__content">
+                        <div class="tab-content tab-content--active">
+                            <div class="swiper-products">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/1.jpeg" alt="">
+                                                <h4 class="products-item__title">
+                                                    КОНЬКИ BAUER VAPOR 3X JR</h4>
+                                                <div class="products-item__price">9 800 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/2.jpeg" alt="">
+                                                <h4 class="products-item__title">КОНЬКИ BAUER VAPOR X2.7 YTH</h4>
+                                                <div class="products-item__price">9 800 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper sale">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/3.jpeg" alt="">
+                                                <h4 class="products-item__title">КОНЬКИ CCM JETSPEED FT4 PRO INT</h4>
+                                                <div class="products-item__price">9 800 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/4.jpeg" alt="">
+                                                <h4 class="products-item__title">КОНЬКИ BAUER SUPREME 3S YTH</h4>
+                                                <div class="products-item__price">9 800 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/5.jpeg" alt="">
+                                                <h4 class="products-item__title">КОНЬКИ BAUER VAPOR 3X PRO INT</h4>
+                                                <div class="products-item__price">9 800 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-products-prev">
+                                    <img src="images/arrow-slider-left.svg" alt="">
+                                </div>
+                                <div class="swiper-products-next">
+                                    <img src="images/arrow-slider-right.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="swiper-products">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/6.jpg" alt="">
+                                                <h4 class="products-item__title">
+                                                    Сноуборд Lib Tech T.RICE PRO 21-22</h4>
+                                                <div class="products-item__price">19 800 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/7.jpg" alt="">
+                                                <h4 class="products-item__title">Сноуборд TERROR SNOW GRASS X 18/19</h4>
+                                                <div class="products-item__price">10 800 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper sale">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/8.jpg" alt="">
+                                                <h4 class="products-item__title">Сноуборд Lib Tech SKUNK APE 21-22</h4>
+                                                <div class="products-item__price">9 600 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/9.jpg" alt="">
+                                                <h4 class="products-item__title">Сноуборд Lib Tech GLIDER 21-22</h4>
+                                                <div class="products-item__price">50 800 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/10.jpg" alt="">
+                                                <h4 class="products-item__title">Сноуборд GNU GNU RCC3 21-22</h4>
+                                                <div class="products-item__price">12 400 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-products-prev">
+                                    <img src="images/arrow-slider-left.svg" alt="">
+                                </div>
+                                <div class="swiper-products-next">
+                                    <img src="images/arrow-slider-right.svg" alt="">
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="tab-content">
+                            <div class="swiper-products">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/11.jpeg" alt="">
+                                                <h4 class="products-item__title">
+                                                    КЛЮШКА ХОККЕЙНАЯ ЗАРЯД T90-III SR</h4>
+                                                <div class="products-item__price">11 990 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/12.jpeg" alt="">
+                                                <h4 class="products-item__title">КЛЮШКА ХОККЕЙНАЯ BAUER VAPOR 3X GRIP
+                                                    INT
+                                                </h4>
+                                                <div class="products-item__price">10 800 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper sale">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/13.jpeg" alt="">
+                                                <h4 class="products-item__title">КЛЮШКА ХОККЕЙНАЯ BAUER X GRIP JR</h4>
+                                                <div class="products-item__price">5 600 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/14.jpeg" alt="">
+                                                <h4 class="products-item__title">КЛЮШКА ХОККЕЙНАЯ BAUER NEXUS N37 GRIP
+                                                    SR
+                                                </h4>
+                                                <div class="products-item__price">7 990 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/15.jpeg" alt="">
+                                                <h4 class="products-item__title">
+                                                    КЛЮШКА ХОККЕЙНАЯ ЗАРЯД Т34-III SR</h4>
+                                                <div class="products-item__price">6 990 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-products-prev">
+                                    <img src="images/arrow-slider-left.svg" alt="">
+                                </div>
+                                <div class="swiper-products-next">
+                                    <img src="images/arrow-slider-right.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="swiper-products">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/16.jpeg" alt="">
+                                                <h4 class="products-item__title">
+                                                    ШЛЕМ WARRIOR COVERT PX2 SR</h4>
+                                                <div class="products-item__price">7 990 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/17.jpeg" alt="">
+                                                <h4 class="products-item__title">ШЛЕМ С МАСКОЙ WARRIOR ALPHA ONE YTH
+                                                </h4>
+                                                <div class="products-item__price">8 800 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper sale">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/18.jpeg" alt="">
+                                                <h4 class="products-item__title">ШЛЕМ CCM TACKS 210 SR</h4>
+                                                <div class="products-item__price">9 600 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/19.jpeg" alt="">
+                                                <h4 class="products-item__title">ШЛЕМ BAUER HYPERLITE SR
+                                                </h4>
+                                                <div class="products-item__price">22 690 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/20.jpeg" alt="">
+                                                <h4 class="products-item__title">
+                                                    ШЛЕМ С МАСКОЙ CCM FITLITE 50 SR</h4>
+                                                <div class="products-item__price">16 990 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-products-prev">
+                                    <img src="images/arrow-slider-left.svg" alt="">
+                                </div>
+                                <div class="swiper-products-next">
+                                    <img src="images/arrow-slider-right.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="swiper-products">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/21.jpeg" alt="">
+                                                <h4 class="products-item__title">
+                                                    РЮКЗАК-МЕШОК ATRIBUTIKA & CLUB ХК АВАНГАРД</h4>
+                                                <div class="products-item__price">2 190 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/22.jpeg" alt="">
+                                                <h4 class="products-item__title">РЮКЗАК ATRIBUTIKA & CLUB PITTSBURGH
+                                                    58173
+                                                </h4>
+                                                <div class="products-item__price">2 800 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper sale">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/23.jpeg" alt="">
+                                                <h4 class="products-item__title">РЮКЗАК-МЕШОК ATRIBUTIKA & CLUB КХЛ SR
+                                                </h4>
+                                                <div class="products-item__price">1 600 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/24.jpeg" alt="">
+                                                <h4 class="products-item__title">РЮКЗАК ATRIBUTIKA & CLUB RUSSIA 18485/7
+                                                </h4>
+                                                <div class="products-item__price">1 690 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/25.jpeg" alt="">
+                                                <h4 class="products-item__title">
+                                                    РЮКЗАК ATRIBUTIKA & CLUB WASHINGTON 58147</h4>
+                                                <div class="products-item__price">1 990 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-products-prev">
+                                    <img src="images/arrow-slider-left.svg" alt="">
+                                </div>
+                                <div class="swiper-products-next">
+                                    <img src="images/arrow-slider-right.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="center">
+                    <a class="products__more" href="#">Показать еще</a>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="sale-banner__wrapper">
+            <div class="container">
+                <div class="sale-banner">
+                    <img class="sale-banner__img" src="images/sale-banner-img.png" alt="">
+                    <p class="sale-banner__text"><span>Скидки</span> на вратарские перчатки 30%</p>
+                    <div class="sale-banner__linkwrapper">
+                        <a class="sale-banner__link" href="#">Посмотреть все</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <section class="products page-section">
+            <div class="container">
+                <h2 class="products__title">С этим товаром покупают</h2>
+                <div class="tabs-wrapper">
+                    <div class="product__tabswrapper">
+                        <div class="tabs product__tabs">
+                            <button class="product__tab tab tab--active">Бутылки</button>
+                            <button class="product__tab tab">Защита</button>
+                            <button class="product__tab tab">Крюки </button>
+                            <button class="product__tab tab">Чехлы</button>
+                        </div>
+                    </div>
+                    <div class="products__content">
+                        <div class="tab-content tab-content--active">
+                            <div class="swiper-products">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/26.jpeg" alt="">
+                                                <h4 class="products-item__title">
+                                                    БУТЫЛКА СПОРТДЕПО 1L</h4>
+                                                <div class="products-item__price">420 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/27.jpeg" alt="">
+                                                <h4 class="products-item__title">БУТЫЛКА MAD GUY 700ML</h4>
+                                                <div class="products-item__price">390 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper sale">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/28.jpeg" alt="">
+                                                <h4 class="products-item__title">БУТЫЛКА BAUER 950ML</h4>
+                                                <div class="products-item__price">440 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/29.jpeg" alt="">
+                                                <h4 class="products-item__title">БУТЫЛКА HOWIES ДЛИННЫЙ НОСИК 1L</h4>
+                                                <div class="products-item__price">500 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/27.jpeg" alt="">
+                                                <h4 class="products-item__title">БУТЫЛКА MAD GUY 700ML</h4>
+                                                <div class="products-item__price">450 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-products-prev">
+                                    <img src="images/arrow-slider-left.svg" alt="">
+                                </div>
+                                <div class="swiper-products-next">
+                                    <img src="images/arrow-slider-right.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="swiper-products">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/30.jpeg" alt="">
+                                                <h4 class="products-item__title">
+                                                    ЩИТКИ ВРАТАРСКИЕ BAUER GSX PRODIGY S20 YTH</h4>
+                                                <div class="products-item__price">19 800 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/31.jpeg" alt="">
+                                                <h4 class="products-item__title">ЩИТКИ ВРАТАРСКИЕ BAUER GSX S20 INT</h4>
+                                                <div class="products-item__price">10 800 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper sale">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/32.jpeg" alt="">
+                                                <h4 class="products-item__title">ЩИТКИ ВРАТАРСКИЕ CCM EXTREME FLEX E5.9
+                                                    INT
+                                                </h4>
+                                                <div class="products-item__price">9 600 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/33.jpeg" alt="">
+                                                <h4 class="products-item__title">ЩИТКИ ВРАТАРСКИЕ CCM YTFLEX 2 YTH</h4>
+                                                <div class="products-item__price">50 800 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/34.jpeg" alt="">
+                                                <h4 class="products-item__title">ЩИТКИ ВРАТАРСКИЕ BAUER SUPREME S150 JR
+                                                </h4>
+                                                <div class="products-item__price">12 400 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-products-prev">
+                                    <img src="images/arrow-slider-left.svg" alt="">
+                                </div>
+                                <div class="swiper-products-next">
+                                    <img src="images/arrow-slider-right.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="swiper-products">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/35.jpeg" alt="">
+                                                <h4 class="products-item__title">
+                                                    КРЮК FISCHER CT950 BLADE 20/21 SR</h4>
+                                                <div class="products-item__price">3 990 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/36.jpeg" alt="">
+                                                <h4 class="products-item__title">КРЮК FISCHER CT450 20/21 SR
+                                                </h4>
+                                                <div class="products-item__price">4 800 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper sale">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/37.jpeg" alt="">
+                                                <h4 class="products-item__title">КРЮК FISCHER CT250 18/19 SR</h4>
+                                                <div class="products-item__price">5 600 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/38.jpeg" alt="">
+                                                <h4 class="products-item__title">КРЮК FISCHER W250 ABS
+                                                </h4>
+                                                <div class="products-item__price">2 990 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/39.jpeg" alt="">
+                                                <h4 class="products-item__title">
+                                                    КРЮК FISCHER CT750 18/19 SR</h4>
+                                                <div class="products-item__price">3 990 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-products-prev">
+                                    <img src="images/arrow-slider-left.svg" alt="">
+                                </div>
+                                <div class="swiper-products-next">
+                                    <img src="images/arrow-slider-right.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="swiper-products">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/40.jpg" alt="">
+                                                <h4 class="products-item__title">
+                                                    Чехол для сноуборда BURTON SPACE SACK</h4>
+                                                <div class="products-item__price">4 990 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/41.jpg" alt="">
+                                                <h4 class="products-item__title">ЧЕХОЛ ДЛЯ СНОУБОРДА Burton Cinch Sack
+                                                </h4>
+                                                <div class="products-item__price">3 800 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper sale">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/42.jpg" alt="">
+                                                <h4 class="products-item__title">ЧЕХОЛ ДЛЯ СНОУБОРДА Dakine Freestyle
+                                                    Snowboard BAG</h4>
+                                                <div class="products-item__price">2 600 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/43.jpg" alt="">
+                                                <h4 class="products-item__title">ЧЕХОЛ ДЛЯ СНОУБОРДА Burton GIG BAG
+                                                </h4>
+                                                <div class="products-item__price">10 690 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="products-item__wrapper">
+                                            <button class="favourite"></button>
+                                            <button class="cart"></button>
+                                            <a class="products-item" href="#">
+                                                <img class="products__item-img" src="images/content/44.jpg" alt="">
+                                                <h4 class="products-item__title">
+                                                    ЧЕХОЛ ДЛЯ СНОУБОРДА Траектория Super Luxe</h4>
+                                                <div class="products-item__price">8 990 ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-products-prev">
+                                    <img src="images/arrow-slider-left.svg" alt="">
+                                </div>
+                                <div class="swiper-products-next">
+                                    <img src="images/arrow-slider-right.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__col-1">
+                        <p class="footer__text">Подпишитесь на нашу рассылку
+                            и узнавайте о акция быстрее</p>
+                        <form class="footer__form" action="#">
+                            <input class="footer__input" type="email" placeholder="Введите ваш e-mail:">
+                            <button class="footer__btn btn">Отправить</button>
+                        </form>
+                    </div>
+                    <div class="footer__col-2">
+                        <nav class="footer__nav">
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a class="footer__list-link" href="#">Информация</a></li>
+                                <li class="footer__list-item"><a class="footer__list-link" href="#">О компании</a></li>
+                                <li class="footer__list-item"><a class="footer__list-link" href="#">Контакты</a></li>
+                                <li class="footer__list-item"><a class="footer__list-link" href="#">Акции</a></li>
+                                <li class="footer__list-item"><a class="footer__list-link" href="#">Магазины</a></li>
+                            </ul>
+                        </nav>
+                        <a class="footer__info" href="#">Договор оферты</a>
+                    </div>
+                    <div class="footer__col-3">
+                        <nav class="footer__nav">
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a class="footer__list-link" href="#">Интернет-магазин</a>
+                                </li>
+                                <li class="footer__list-item"><a class="footer__list-link" href="#">Доставка и
+                                        самовывоз</a>
+                                </li>
+                                <li class="footer__list-item"><a class="footer__list-link" href="#">Оплата</a></li>
+                                <li class="footer__list-item"><a class="footer__list-link" href="#">Возврат-обмен</a>
+                                </li>
+                                <li class="footer__list-item"><a class="footer__list-link" href="#">Новости</a></li>
+                            </ul>
+                        </nav>
+                        <a class="footer__info" href="#">Политика обработки персональных данных</a>
+                    </div>
+                    <div class="footer__col-4">
+                        <ul class="footer__social">
+                            <li class="footer__social-item">
+                                <a class="footer__social-link" href="#">
+                                    <img src="images/instagram.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="footer__social-item">
+                                <a class="footer__social-link" href="#">
+                                    <img src="images/vk.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="footer__social-item">
+                                <a class="footer__social-link" href="#">
+                                    <img src="images/facebook.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="footer__social-item">
+                                <a class="footer__social-link" href="#">
+                                    <img src="images/youtube.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src='js/main.min.js'></script>
+    </div>
+</body>
+
+</html>
